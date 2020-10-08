@@ -1,4 +1,6 @@
 # Image Classifier
+
+# Objective
 Model developed to identify an image and classify accordingly.
 
 Image classification falls under classification algorithm of Machine learning.
@@ -55,7 +57,8 @@ GridseachCV not only helps us to choose the best model but also it helps us in a
 
 ![](Visuals/score.png)
 
-We reached the conclusion that out model performs with a score of 80%
+# Result
+We reached the conclusion that out Logistic regression model performs best with a score of 80%
 
 Plotting a a relationship between the predcited values and actual values helps in order to rectify the mistakes or check the parameters which can we tweeked.
 Seaborn library provides powerful visualization to tackle that problem.
@@ -63,3 +66,6 @@ Seaborn library provides powerful visualization to tackle that problem.
 ![](Visuals/heatmap.png)
 
 Heatmap corresponding with the True values and Predicted values
+
+# Con
+* The classifier requires a large amount of data to perform adequetly, hence it is not advisable to use a small dataset.
