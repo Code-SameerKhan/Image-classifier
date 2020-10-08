@@ -12,5 +12,54 @@ can be divided into 3 dimension or 2 dimension (i.e, in the case of Black and wh
 Using the OpenCV library we import images onto our Jupyter notebook to perform some tests to identfy and spot differences.
 OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library that detect and recognize faces to classify human action.
 
-Test Image
-![](visuals/image1.png)
+![](Visuals/image1.png)
+
+Test Image of Cristiano Ronaldo
+
+Due to the fact it is a coloured image, it has 3 dimensions where the 3rd dimension corresponds to RGB color scheme. In order to avoid complications, we convert the coloured
+image in to a Gray scalled image.
+
+![](Visuals/image2.png)
+
+# Identifying region of interest
+The important part in image classification is identifying the subtle difference in one's facial map and features. 
+To accomplish the goal we employ the usage of Haar featured cascade classifier to detect (in this case) face map and eyes. 
+By providing the classifier with many photos and negatives, classifier identifies and extracts the object usefull for the operations.
+
+![](Visuals/image3.png)
+
+Identified region of interest using Haar enabled cascade classifier
+
+# Wavelet transformation of the image
+To identify the difference between 2 images, transformation of image is necessary. Wavelet tranformation helps in that regard.
+
+The wavelet analysis method is a time-frequency analysis method which selects the appropriate frequency band adaptively based on the characteristics of the signal. 
+Then the frequency band matches the spectrum which improves the time-frequency resolution. The wavelet analysis method has an obvious effect on the removal of noise 
+in the signal. According to the features of the multi-scale edge of the wavelet, the de-noising method of the orthogonal wavelet transform which based on soft and hard
+threshold.
+
+![](Visuals/image4.png)
+
+Wavelet tranformed image
+
+The images after the tranformation is vertically stacked up against the orginal gray scalled image to form a dataset to employee machine learning algorithm.
+
+# Choosing the Best model
+Using GridSearchCv we can identify which model performs best among the various classification algorithms such as-
+
+* Logistic Regression
+* Random Forest
+* Support Vector Machine (SVM)
+
+GridseachCV not only helps us to choose the best model but also it helps us in achieving highest efficiency by determining best parameters for it.
+
+![](Visuals/score.png)
+
+We reached the conclusion that out model performs with a score of 80%
+
+Plotting a a relationship between the predcited values and actual values helps in order to rectify the mistakes or check the parameters which can we tweeked.
+Seaborn library provides powerful visualization to tackle that problem.
+
+![](Visuals/heatmap.png)
+
+Heatmap corresponding with the True values and Predicted values
