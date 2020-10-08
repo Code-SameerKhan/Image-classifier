@@ -40,7 +40,7 @@ threshold.
 
 ![](Visuals/image4.png)
 
-Wavelet tranformed image
+Wavelet transformed image
 
 The images after the tranformation is vertically stacked up against the orginal gray scalled image to form a dataset to employee machine learning algorithm.
 
