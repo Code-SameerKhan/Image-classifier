@@ -1,4 +1,4 @@
-# Sports-personality-classifier
+# Image Classifier
 Model developed to identify an image and classify accordingly.
 
 Image classification falls under classification algorithm of Machine learning.
