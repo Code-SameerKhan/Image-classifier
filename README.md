@@ -33,7 +33,7 @@ By providing the classifier with many photos and negatives, classifier identifie
 Identified region of interest using Haar enabled cascade classifier
 
 # Wavelet transformation of the image
-To identify the difference between 2 images, transformation of image is necessary. Wavelet tranformation helps in that regard.
+To identify the difference between 2 images, transformation of image is necessary. Wavelet transformation helps in that regard.
 
 The wavelet analysis method is a time-frequency analysis method which selects the appropriate frequency band adaptively based on the characteristics of the signal. 
 Then the frequency band matches the spectrum which improves the time-frequency resolution. The wavelet analysis method has an obvious effect on the removal of noise 
@@ -44,7 +44,7 @@ threshold.
 
 Wavelet transformed image
 
-The images after the tranformation is vertically stacked up against the orginal gray scalled image to form a dataset to employee machine learning algorithm.
+The images after the transformation is vertically stacked up against the orginal gray scaled image to form a dataset to employee machine learning algorithm.
 
 # Choosing the Best model
 Using GridSearchCv we can identify which model performs best among the various classification algorithms such as-
@@ -60,7 +60,7 @@ GridseachCV not only helps us to choose the best model but also it helps us in a
 # Result
 We reached the conclusion that out Logistic regression model performs best with a score of 80%
 
-Plotting a a relationship between the predcited values and actual values helps in order to rectify the mistakes or check the parameters which can we tweeked.
+Plotting a a relationship between the predicted values and actual values helps in order to rectify the mistakes or check the parameters which can we tweaked.
 Seaborn library provides powerful visualization to tackle that problem.
 
 ![](Visuals/heatmap.png)
