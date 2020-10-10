@@ -26,7 +26,7 @@ image in to a Gray scaled image.
 # Identifying region of interest
 The important part in image classification is identifying the subtle difference in one's facial map and features. 
 To accomplish the goal we employ the usage of Haar featured cascade classifier to detect (in this case) face map and eyes. 
-By providing the classifier with many photos and negatives, classifier identifies and extracts the object usefull for the operations.
+By providing the classifier with many photos and negatives, classifier identifies and extracts the object useful for the operations.
 
 ![](Visuals/image3.png)
 
