@@ -8,7 +8,7 @@ Classification algorithm works under the premise of finding the pattern and asso
 In this project, a model is developed to perform similar objective but with a little upgradation.
 
 Similar to the regular numerical nature of data, images are identified by the machine in the form of array consisting of numerical values and depending upon the color scheme it
-can be divided into 3 dimension or 2 dimension (i.e, in the case of Black and white image or Gray Scalled image)
+can be divided into 3 dimension or 2 dimension (i.e, in the case of Black and white image or Gray Scaled image)
 
 # Importing an Image
 Using the OpenCV library we import images onto our Jupyter notebook to perform some tests to identfy and spot differences.
@@ -19,7 +19,7 @@ OpenCV (Open Source Computer Vision Library) is an open source computer vision a
 Test Image of Cristiano Ronaldo
 
 Due to the fact it is a coloured image, it has 3 dimensions where the 3rd dimension corresponds to RGB color scheme. In order to avoid complications, we convert the coloured
-image in to a Gray scalled image.
+image in to a Gray scaled image.
 
 ![](Visuals/image2.png)
 
