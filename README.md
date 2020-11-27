@@ -44,7 +44,7 @@ threshold.
 
 Wavelet transformed image
 
-The images after the transformation is vertically stacked up against the orginal gray scaled image to form a dataset to employee machine learning algorithm.
+The images after the transformation is vertically stacked up against the original gray scaled image to form a dataset to employee machine learning algorithm.
 
 # Choosing the Best model
 Using GridSearchCv we can identify which model performs best among the various classification algorithms such as-
