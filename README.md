@@ -68,4 +68,4 @@ Seaborn library provides powerful visualization to tackle that problem.
 Heatmap corresponding with the True values and Predicted values
 
 # Con
-* The classifier requires a large amount of data to perform adequetly, hence it is not advisable to use a small dataset.
+* The classifier requires a large amount of data to perform adequately, hence it is not advisable to use a small dataset.
