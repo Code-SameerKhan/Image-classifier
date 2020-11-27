@@ -60,7 +60,7 @@ GridseachCV not only helps us to choose the best model but also it helps us in a
 # Result
 We reached the conclusion that out Logistic regression model performs best with a score of 80%
 
-Plotting a a relationship between the predicted values and actual values helps in order to rectify the mistakes or check the parameters which can we tweaked.
+Plotting a relationship between the predicted values and actual values helps in order to rectify the mistakes or check the parameters which can we tweaked.
 Seaborn library provides powerful visualization to tackle that problem.
 
 ![](Visuals/heatmap.png)
