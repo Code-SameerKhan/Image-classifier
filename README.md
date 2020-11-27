@@ -11,7 +11,7 @@ Similar to the regular numerical nature of data, images are identified by the ma
 can be divided into 3 dimension or 2 dimension (i.e, in the case of Black and white image or Gray Scaled image)
 
 # Importing an Image
-Using the OpenCV library we import images onto our Jupyter notebook to perform some tests to identfy and spot differences.
+Using the OpenCV library we import images onto our Jupyter notebook to perform some tests to identify and spot differences.
 OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library that detect and recognize faces to classify human action.
 
 ![](Visuals/image1.png)
